@@ -7,7 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <% if flash[:notice] %>
+  
+  <div class="container">
+
+    <% if flash[:notice] %>
     <div class="alert alert-success">
       <button type="button" class="close" data-dismiss="alert">&times;</button>
       <%= flash[:notice] %>
@@ -24,8 +27,9 @@
       <%= flash[:alert] %>
     </div>
   <% end %>
-  
-<%= yield %>
 
+    <%= yield %>
+
+  </div>
 </body>
 </html>

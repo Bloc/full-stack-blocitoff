@@ -40,3 +40,6 @@ gem 'omniauth-facebook'
 
 # Use figaro to handle credentials
 gem 'figaro'
+
+# Automate rake tasks using whenever
+gem 'whenever', require: false
