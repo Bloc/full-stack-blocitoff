@@ -1,6 +1,8 @@
 Your application.yml file needs to have the following:
 
 DEVISE_SECRET_KEY: 'Your devise secret key goes here'
+SENDGRID_USERNAME: 'Your SENDGRID_USERNAME'
+SENDGRID_PASSWORD: 'Your SENDGRID_PASSWORD'
 
 development:
   FACEBOOK_APP_ID: 'your development id goes here'
