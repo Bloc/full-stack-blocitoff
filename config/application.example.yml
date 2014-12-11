@@ -1,0 +1,10 @@
+Your application.yml file needs to have the following:
+
+DEVISE_SECRET_KEY: 'Your devise secret key goes here'
+
+development:
+  FACEBOOK_APP_ID: 'your development id goes here'
+  FACEBOOK_APP_SECRET: 'your development secret goes here'
+production:
+  FACEBOOK_APP_ID: 'your production id goes here'
+  FACEBOOK_APP_SECRET: 'your production secret goes here'
