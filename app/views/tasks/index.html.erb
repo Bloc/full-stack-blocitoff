@@ -1,0 +1,7 @@
+<%= render "layouts/topbar" %>
+
+<%= render partial: "tasks", locals: { tasks: @tasks } %>
+
+<% if @inactive_tasks.count > 0 %>
+  <%= render partial: "inactive", locals: { inactive_tasks: @inactive_tasks } %>
+<% end %>
