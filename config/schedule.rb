@@ -1,5 +1,5 @@
 set :environment, "development"
 
-every 2.minutes do
+every 1.day do
   rake "clear_tasks"
 end
