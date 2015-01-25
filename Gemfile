@@ -1,5 +1,30 @@
 source 'https://rubygems.org'
 
+ruby '2.1.5'
+
+# Design Framework
+gem 'bootstrap-sass', '~> 3.3.3'
+
+## Authentication
+gem 'devise'
+
+
+# Diagnostics
+group :development, :test do
+  ## Better Errors
+  gem "better_errors"
+  gem "binding_of_caller"
+  ## Pry as REPL in Rails Console
+  gem 'pry'
+  gem 'pry-rails'
+end
+
+#Testing
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+  gem 'factory_girl_rails'
+end
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
